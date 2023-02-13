@@ -1,0 +1,133 @@
+@media(min-width:600px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .divContainer1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+
+    .divContainer1 > section, .posts{
+        width: 60%;
+    }
+ 
+    input{
+        height: 2.5rem;
+    }
+
+    textarea{
+        height: 7rem;
+    }
+    
+    aside {
+        margin: 0 2rem;
+        margin-right:0;
+        width: 40%;
+    }
+
+    .contentDivSuggest{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       gap: 1.5rem;
+       margin-top: 1rem;
+       overflow: hidden;
+       width: 100%;
+    }
+    
+    .userSuggest{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+    }
+
+    .btnFollow{
+        margin: 0;
+    }
+    
+    .btnFollow:hover{
+        border: 0.1rem solid var(--color-brand-1) ;
+        background-color: var(--color-grey-6);
+        color: var(--color-brand-1);
+    }
+
+    .divContainer2{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .divPostContainer{
+        width: 96%;
+    }
+
+    dialog{
+        margin-top: 8rem;
+    }
+
+    .divDialog{
+        width: 25rem;
+        height: 30rem;
+    }
+    
+    .divPostModal > h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+
+@media(min-width:1200px){
+
+    .divContainer1 > section, .posts {
+        width: 75%;
+    }
+    
+    input{
+        Height:2.5rem;
+    }
+    
+    textarea{
+        Height:8rem;
+    }
+
+    aside{
+        margin-left: 5rem;
+        width: 25%;
+    }
+
+    .divDialog{
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+
+@media (min-width: 1700px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main{
+        max-width: 140rem;
+    }
+
+    aside{
+        max-width: 30rem;
+    }
+    
+}

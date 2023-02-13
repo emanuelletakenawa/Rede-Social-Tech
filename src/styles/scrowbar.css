@@ -1,0 +1,62 @@
+body::-webkit-scrollbar {
+    width: 0.7rem;
+    height: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+    background: var(--color-grey-6); 
+}
+body::-webkit-scrollbar-thumb {
+    background: var(--color-grey-1); 
+    border-radius: var(--radius);
+}
+body::-webkit-scrollbar-thumb:hover {
+    background:  var(--color-grey-2); 
+}
+
+
+.contentDivSuggest::-webkit-scrollbar {
+    width: 0.1rem;
+    height: 0.3rem;
+}
+.contentDivSuggest::-webkit-scrollbar-track {
+    background: var(--color-grey-6); 
+}
+.contentDivSuggest::-webkit-scrollbar-thumb {
+    background: var(--color-grey-1); 
+    border-radius: var(--radius);
+}
+.contentDivSuggest::-webkit-scrollbar-thumb:hover {
+    background:  var(--color-grey-2); 
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.3rem;
+}
+textarea::-webkit-scrollbar-track {
+    background: var(--color-grey-6); 
+}
+textarea::-webkit-scrollbar-thumb {
+    background: var(--color-grey-1); 
+    border-radius: var(--radius);
+}
+textarea::-webkit-scrollbar-thumb:hover {
+    background:  var(--color-grey-2); 
+}
+
+
+dialog::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.3rem;
+}
+dialog::-webkit-scrollbar-track {
+    background: var(--color-grey-6); 
+}
+dialog::-webkit-scrollbar-thumb {
+    background: var(--color-grey-1); 
+    border-radius: var(--radius);
+}
+dialog::-webkit-scrollbar-thumb:hover {
+    background:  var(--color-grey-2); 
+}
