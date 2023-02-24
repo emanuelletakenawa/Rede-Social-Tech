@@ -21,7 +21,7 @@ Nele possui um formulário onde é possível adicionar novos posts dinamicamente
 abrir um modal contendo o conteúdo completo da publicação e um botão de like que, ao ser clicado, soma +1 like na contagem do post (ou subtrai).
 Além disso, a aplicação também apresenta uma seção de "Sugestões para você seguir"
 
-O layout foi criado nos conceitos de mobile first e está responsivo para todos os tamanhos de tela.
+O layout foi criado nos conceitos de mobile first e está dispnível para todos os tamanhos de tela!
 
 
 #### Funcionalidades:
